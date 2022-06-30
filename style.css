@@ -1,0 +1,49 @@
+body {
+    font-family: 'Arima', cursive;
+    margin: 0;
+}
+
+h1 {
+    font-size: 55px;
+}
+
+.blue {
+    color: aqua;
+}
+
+span {
+    color: orange;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+section {
+    display: flex;
+}
+
+.half {
+    width: 50%;
+    padding-left: 6%;
+}
+
+.half img {
+    width: 100%;
+    padding-top: 8%;
+    padding-right: 1%;
+}
+
+.button {
+    text-decoration: none;
+    color: aqua;
+    padding: 10px 40px;
+    background-image: linear-gradient(brown, orange);
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.banner {
+    background-image: url(ml.png);
+    background-repeat: no-repeat;
+}
