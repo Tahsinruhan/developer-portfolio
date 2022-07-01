@@ -19,7 +19,7 @@ h3 {
     font-size: 30px;
 }
 
-section {
+.flexible {
     display: flex;
     margin-bottom: 100px;
 }
@@ -59,4 +59,39 @@ section {
 
 .white {
     color: rgb(166, 209, 246);
+}
+
+.half-box {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px black;
+
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.brown {
+    color: rgb(233, 88, 31);
+}
+
+.bg {
+    background-color: rgb(243, 243, 252);
+}
+
+#pro {
+    border-left: 10px solid;
+    border-image: linear-gradient(brown, tomato);
+    border-image-slice: 1;
+}
+
+#junior {
+    border-left: 10px solid;
+    border-image: linear-gradient(rgb(17, 216, 150), rgb(26, 11, 96));
+    border-image-slice: 1;
+
 }
