@@ -56,3 +56,7 @@ section {
     background-position: right;
     background-color: rgb(1, 1, 49);
 }
+
+.white {
+    color: rgb(166, 209, 246);
+}
