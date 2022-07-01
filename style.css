@@ -21,6 +21,7 @@ h3 {
 
 section {
     display: flex;
+    margin-bottom: 100px;
 }
 
 .half {
@@ -46,4 +47,12 @@ section {
 .banner {
     background-image: url(ml.png);
     background-repeat: no-repeat;
+}
+
+.bn {
+
+    background-image: url(maxresdefault.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: rgb(1, 1, 49);
 }
